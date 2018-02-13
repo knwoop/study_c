@@ -1,6 +1,6 @@
 # Problem
 
-### 問題1 次のような九九表を表示する関数 ninety_nine を定義してください。
+### problem1 次のような九九表を表示する関数 ninety_nine を定義してください。
 ***
 
 void ninety_nine(void);
@@ -18,7 +18,7 @@ void ninety_nine(void);
  9 |  9 18 27 36 45 54 63 72 81 
  
 
-### 問題2 整数 n から m までの和、二乗の和、三乗の和を求める関数 sum_of_int, sum_of_square, sum_of_cube を次に示す公式を使って定義してください。なお、int ではすぐにオーバーフローするので double を使って計算してください。
+### problem2 整数 n から m までの和、二乗の和、三乗の和を求める関数 sum_of_int, sum_of_square, sum_of_cube を次に示す公式を使って定義してください。なお、int ではすぐにオーバーフローするので double を使って計算してください。
 ***
 1 + 2 + 3 + ... + n = n(n+1)/ 2
 1 + 22 + 32 + ... + n2 = n(n+1)(2n+1)/6
@@ -27,12 +27,12 @@ double sum_of_int(int n, int m);
 double sum_of_square(int n, int m);
 double sum_of_cube(int n, int m);
 
-### 問題3 x の y 乗を求める関数 power を定義してください。ここでは、x を double, y を int とします。
+### problem3 x の y 乗を求める関数 power を定義してください。ここでは、x を double, y を int とします。
 ***
 
 double power(double x, int y);
 
-### 問題4 下図に示すフィボナッチ関数 fibo を定義してください。
+### problem4 下図に示すフィボナッチ関数 fibo を定義してください。
 ***
 
 ~~~ c 
@@ -46,37 +46,37 @@ fibo(n) = ┤ 1;                     n = 1
 int fibo(int n);
 ~~~
 
-### 問題５ 整数 n を b 進数 (2 <= b <= 16) で画面 (標準出力) に表示する関数 print_int を定義してください。
+### problem５ 整数 n を b 進数 (2 <= b <= 16) で画面 (標準出力) に表示する関数 print_int を定義してください。
 ***
 ~~~ c 
 void print_int(int n, int b);
 ~~~
 
-### 問題6 n 個の中から r 個を選ぶ組み合わせの数 nＣr を求める関数 combination を定義してください。
+### problem6 n 個の中から r 個を選ぶ組み合わせの数 nＣr を求める関数 combination を定義してください。
 ***
 ~~~ c 
 int combination(int n, int r);
 ~~~
 
-### 問題7 1 から n までの数字から m 個を選ぶ順列を画面に表示する関数 permutations を定義してください。
+### problem7 1 から n までの数字から m 個を選ぶ順列を画面に表示する関数 permutations を定義してください。
 ***
 ~~~ c 
 void permutations(int n, int m);
 ~~~
 
-### 問題8 1 から n までの数字から重複を許して m 個を選ぶ順列を画面に表示する関数 repeat_perm を定義してください。
+### problem8 1 から n までの数字から重複を許して m 個を選ぶ順列を画面に表示する関数 repeat_perm を定義してください。
 ***
 ~~~ c 
 void repeat_perm(int n, int m);
 ~~~
 
-### 問題9 1 から n までの数字から r 個を選ぶ組み合わせを画面に表示する関数 combinations を定義してください。
+### problem9 1 から n までの数字から r 個を選ぶ組み合わせを画面に表示する関数 combinations を定義してください。
 ***
 ~~~ c 
 void combinations(int n, int r);
 ~~~
 
-### 問題10 1 から n までの数字から重複を許して r 個を選ぶ組み合わせを画面に表示する関数 repeat_comb を定義してください。
+### problem10 1 から n までの数字から重複を許して r 個を選ぶ組み合わせを画面に表示する関数 repeat_comb を定義してください。
 ***
 ~~~ c
 void repeat_comb(int n, int r);
