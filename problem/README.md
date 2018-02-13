@@ -21,17 +21,20 @@ void ninety_nine(void);
 
 ### problem2 整数 n から m までの和、二乗の和、三乗の和を求める関数 sum_of_int, sum_of_square, sum_of_cube を次に示す公式を使って定義してください。なお、int ではすぐにオーバーフローするので double を使って計算してください。
 ***
+~~~ c
 1 + 2 + 3 + ... + n = n(n+1)/ 2
 1 + 22 + 32 + ... + n2 = n(n+1)(2n+1)/6
 1 + 23 + 33 + ... + n3 = n2(n+1)2/4
 double sum_of_int(int n, int m);
 double sum_of_square(int n, int m);
 double sum_of_cube(int n, int m);
+~~~
 
 ### problem3 x の y 乗を求める関数 power を定義してください。ここでは、x を double, y を int とします。
 ***
-
+~~~ c
 double power(double x, int y);
+~~~
 
 ### problem4 下図に示すフィボナッチ関数 fibo を定義してください。
 ***
